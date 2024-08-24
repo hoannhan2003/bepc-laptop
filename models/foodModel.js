@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import normalize from 'normalize-mongoose'
+
 const foodSchema = new mongoose.Schema({
     name: {type:String, required:true},
     description :{type:String, required:true},
